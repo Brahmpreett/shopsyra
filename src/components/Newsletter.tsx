@@ -21,7 +21,7 @@ const Newsletter = () => {
             />
             <Button
               type="submit"
-              className="bg-gradient-to-r from-primary to-secondary text-foreground font-semibold px-8 border-glow-cyan hover:scale-105 transition-transform h-12"
+              className="bg-foreground text-background font-semibold px-8 hover:scale-105 transition-transform h-12"
             >
               Join Waitlist
             </Button>

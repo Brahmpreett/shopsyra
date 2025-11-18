@@ -24,7 +24,7 @@ const Navbar = () => {
             <a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors">
               Reviews
             </a>
-            <Button variant="default" className="bg-gradient-to-r from-primary to-secondary border-glow-cyan">
+            <Button variant="default" className="bg-foreground text-background hover:bg-foreground/90">
               Try Prototype
             </Button>
           </div>
@@ -60,7 +60,7 @@ const Navbar = () => {
             >
               Reviews
             </a>
-            <Button variant="default" className="w-full bg-gradient-to-r from-primary to-secondary">
+            <Button variant="default" className="w-full bg-foreground text-background hover:bg-foreground/90">
               Try Prototype
             </Button>
           </div>
