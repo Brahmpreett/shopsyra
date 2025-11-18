@@ -56,10 +56,8 @@ const HeroSlideshow = () => {
 
           <div className="relative z-10 h-full flex items-center justify-center text-center px-4">
             <div className="max-w-4xl animate-fade-in">
-              <h1 className="text-5xl md:text-7xl font-bold mb-6">
-                <span className="text-glow-cyan bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-                  Shopsyra
-                </span>
+              <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground">
+                Shopsyra
               </h1>
               <h2 className="text-3xl md:text-5xl font-bold mb-4 text-foreground">
                 {slide.title}
@@ -69,7 +67,7 @@ const HeroSlideshow = () => {
               </p>
               <Button
                 size="lg"
-                className="bg-gradient-to-r from-primary to-secondary text-foreground font-semibold text-lg px-8 py-6 border-glow-cyan hover:scale-105 transition-transform"
+                className="bg-foreground text-background font-semibold text-lg px-8 py-6 hover:scale-105 transition-transform"
               >
                 Try Prototype
               </Button>
