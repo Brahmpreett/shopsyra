@@ -4,7 +4,7 @@ import FeatureCard from "./FeatureCard";
 const features = [
   {
     icon: Bot,
-    title: "AI Chatbot (Google Gemini)",
+    title: "AI Chatbot",
     description: "Ask 'Is this product available?', 'Which aisle?', 'Where is it located?' Get instant answers with text & voice support, powered by real-time store data.",
     badge: "AI-Powered",
   },
@@ -44,10 +44,8 @@ const FeaturesGrid = () => {
       
       <div className="container mx-auto max-w-7xl relative z-10">
         <div className="text-center mb-16 animate-fade-in">
-          <h2 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-              Core MVP Features
-            </span>
+          <h2 className="text-4xl md:text-6xl font-bold mb-4 text-white">
+            Core MVP Features
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Revolutionary AI-powered shopping experience that transforms how you navigate stores

@@ -5,8 +5,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           <div>
             <h3 className="text-xl font-bold mb-4">
-              <span className="text-primary text-glow-cyan">Shop</span>
-              <span className="text-foreground">syra</span>
+              <span className="text-primary text-glow-cyan">shopsyra</span>
             </h3>
             <p className="text-sm text-muted-foreground">
               Your AI-powered shopping companion for smarter, faster store navigation.

@@ -69,7 +69,7 @@ const HeroSlideshow = () => {
                 size="lg"
                 className="bg-foreground text-background font-semibold text-lg px-8 py-6 hover:scale-105 transition-transform"
               >
-                Try Prototype
+                Chat Shopsyra
               </Button>
             </div>
           </div>
