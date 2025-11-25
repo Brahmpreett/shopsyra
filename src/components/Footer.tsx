@@ -44,9 +44,7 @@ const Footer = () => {
           <p>
             © 2024{" "}
             <a
-              href="https://shopsyra.vercel.app"
-              target="_blank"
-              rel="noopener noreferrer"
+              href="/"
               className="text-cyan-500 hover:text-cyan-400 transition-colors"
             >
               shopsyra
@@ -61,6 +59,7 @@ const Footer = () => {
             </a>
           </p>
         </div>
+
       </div>
     </footer>
   );
