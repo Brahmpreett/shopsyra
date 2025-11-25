@@ -41,7 +41,25 @@ const Footer = () => {
         </div>
 
         <div className="pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
-          <p>© 2024 Shopsyra. All rights reserved. Powered by Google Gemini AI.</p>
+          <p>
+            © 2024{" "}
+            <a
+              href="https://shopsyra.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-500 hover:text-cyan-400 transition-colors"
+            >
+              shopsyra
+            </a>. All rights reserved. By{" "}
+            <a
+              href="https://brahmpreet.vercel.app"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-cyan-500 hover:text-cyan-400 transition-colors"
+            >
+              Brahmpreet Singh
+            </a>
+          </p>
         </div>
       </div>
     </footer>

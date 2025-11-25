@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "./ui/button";
+import { Link } from "react-router-dom";
 import hero1 from "@/assets/hero-1.jpg";
 import hero2 from "@/assets/hero-2.jpg";
 import hero3 from "@/assets/hero-3.jpg";
@@ -65,12 +66,14 @@ const HeroSlideshow = () => {
               <p className="text-xl md:text-2xl text-muted-foreground mb-8">
                 {slide.subtitle}
               </p>
-              <Button
-                size="lg"
-                className="bg-foreground text-background font-semibold text-lg px-8 py-6 hover:scale-105 transition-transform"
-              >
-                Chat Shopsyra
-              </Button>
+              <Link to="/chat">
+                <Button
+                  size="lg"
+                  className="bg-foreground text-background font-semibold text-lg px-8 py-6 hover:bg-cyan-500 hover:scale-105 transition-transform"
+                >
+                  Chat Shopsyra
+                </Button>
+              </Link>
             </div>
           </div>
         </div>
