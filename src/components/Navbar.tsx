@@ -26,7 +26,11 @@ const Navbar = () => {
             <a href="#testimonials" className="text-muted-foreground hover:text-primary transition-colors">
               Reviews
             </a>
-            <Button variant="default" className="bg-foreground text-background hover:bg-cyan-500 hover:scale-105 transition-colors duration-300">
+            <Button 
+              variant="default" 
+              className="bg-foreground text-background hover:bg-cyan-500 hover:scale-105 transition-colors duration-300"
+              onClick={() => window.location.href = '/chat'}
+            >
               Chat Shopsyra
             </Button>
           </div>
@@ -65,6 +69,7 @@ const Navbar = () => {
             <Button
               variant="default"
               className="w-full bg-foreground text-background hover:bg-cyan-500 hover:scale-105 transition-all duration-300"
+              onClick={() => window.location.href = '/chat'}
             >
               Chat Shopsyra
             </Button>
